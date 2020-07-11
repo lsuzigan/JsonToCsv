@@ -18,16 +18,17 @@
 }
 
 #home main {
+    height: 100vh;
     margin-top: 50px;
     margin-left: 35px;
+    margin-right: 35px;
     display: flex;
     flex-direction: row;
 }
 
 #home main .json-field {
-    height: 500px;
-    width: 700px;
-    margin-right: 10%;
+    max-height: 500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     float: left;
@@ -40,17 +41,42 @@
 }
 
 #home main .json-field textarea {
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     resize: none;
     border: none;
     border-radius: 10px;
     background-color: #f0f0f0;
 }
 
+#home main .button-area {
+    max-height: 500px;
+    width: 15%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#home main button {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--title-color);
+}
+
+#home main button:hover {
+    background-color: var(--hover-color);
+}
+
 #home main .csv-field {
-    height: 500px;
-    width: 700px;
+    max-height: 500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     float: left;
@@ -63,8 +89,8 @@
 }
 
 #home main .csv-field textarea {
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     resize: none;
     border: none;
     border-radius: 10px;
