@@ -17,7 +17,18 @@
     font-weight: bolder;
 }
 
-#home main {
+
+/*Commented after added #home main form
+/* #home main {
+    height: 100vh;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: row;
+} */
+
+#home main form {
     height: 100vh;
     margin-top: 50px;
     margin-left: 35px;
