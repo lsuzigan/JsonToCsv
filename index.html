@@ -20,14 +20,18 @@
     <div id="home">
         <div id="content">
             <header>
-                <span>Json to CSV Converter</span>
+                <span>
+                    <h1>Simple JSON to CSV Converter</h1>
+                    <h4>* Does not support nested objects</h4>
+                </span>
+
             </header>
 
             <main>
                 <form name="parse" action="">
                     <div class="json-field">
                         <label for="json">Paste your Json here</label>
-                        <textarea id="json">{ "name":"John", "age":30, "car":null }</textarea>
+                        <textarea id="json">[{"Id":1,"UserName":"Sam Smith"}]</textarea>
                     </div>
 
                     <div class="button-area">

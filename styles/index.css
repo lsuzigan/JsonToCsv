@@ -4,17 +4,24 @@
 }
 
 #home header {
-    margin: 35px;
+    margin-top: 35px;
+    margin-left: 35px;
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: left;
 }
 
-#home header span {
+#home header span h1 {
     font-size: 30px;
     color: var(--title-color);
     font-weight: bolder;
+}
+
+#home header span h4 {
+    font-size: 12px;
+    color: var(--title-color);
+    font-weight: lighter;
 }
 
 
@@ -29,8 +36,8 @@
 } */
 
 #home main form {
-    height: 100vh;
-    margin-top: 50px;
+    height: 50vh;
+    margin-top: 20px;
     margin-left: 35px;
     margin-right: 35px;
     display: flex;
